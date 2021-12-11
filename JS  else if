@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS else if</title>
+</head>
+<body>
+	
+
+
+<script>
+
+// age 
+let age = 14;
+
+// else if
+if(age < 18) {
+	document.write("You can't vote");
+} else {
+	document.write("You can vote");
+}
+
+</script>
+
+</body>
+</html>
