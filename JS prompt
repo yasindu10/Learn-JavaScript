@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS prompt</title>
+</head>
+<body>
+	
+
+
+<!-- JS -->
+<script>
+// prompt
+let promptValue = prompt("Enter User name", "");
+
+// condition
+if(promptValue == "Yasindu") {
+	document.write('Hellow Yasindu');
+} else {
+	document.write('Invalid User name');
+}
+
+</script>
+
+
+
+</body>
+</html>
