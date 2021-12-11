@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS functions</title>
+</head>
+<body>
+	
+<!-- p tag -->
+<p id="paragraph"></p>
+
+
+
+<!-- JS -->
+<script>
+
+// function
+function myFunction() {
+	let	paragraphTag = document.getElementById('paragraph');
+	paragraphTag.innerHTML = "Hellow function";
+}
+
+// function coll
+myFunction();
+
+
+
+// ----------------------------------------------------------
+
+
+// return a function
+function myFunction1(p1, p2) {
+	return p1 + p2;
+}
+
+// function call
+document.getElementById('paragraph').innerHTML = myFunction1(2, 4);
+
+
+</script>
+
+
+
+
+</body>
+</html>
