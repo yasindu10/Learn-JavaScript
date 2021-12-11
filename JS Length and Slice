@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS Length and Slice</title>
+</head>
+<body>
+	
+
+<p id="p">JavaScript is populer programming language</p>
+
+
+<script>
+
+// JS length
+let p = document.getElementById('p').innerHTML;
+document.write(p.length);
+
+// br
+document.write("</br>");
+document.write("</br>");
+
+// JS Slice
+let p2 = document.getElementById('p').innerHTML;
+document.write(p.slice(0, 11));
+</script>
+
+
+</body>
+</html>
