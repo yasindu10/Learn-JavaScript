@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	
+
+
+
+<!-- JavaScript -->
+<script>
+	
+// Object
+let friend = {
+	fistName: "Yasindu",
+    lastName: "Samarasinghe",
+    age: 13,
+    school: "C.W.W Kannangara M.V.",
+    fullName: function() {
+    	return this.fistName + " " + this.lastName + "."; 
+    }
+}
+
+// Object.value
+document.write(friend.fistName);
+
+document.write("</br>");
+
+// Object.function:return
+document.write(friend.fullName());
+
+</script>
+
+
+
+</body>
+</html>
