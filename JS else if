@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS else if</title>
+</head>
+<body>
+	
+
+
+<input type="text" placeholder="Enter age" id="input">
+<p id="p"></p>
+<button onclick="myFunction()" type="button">Click to check age</button>
+
+
+<script>
+function myFunction() {
+	let input = document.getElementById('input').value;
+	let p = document.getElementById('p');
+
+	if(input < 18) {
+		p.innerHTML = "You can't vote";
+	} else {
+		p.innerHTML = "You can vote";
+	}
+}
+
+</script>
+
+</body>
+</html>
