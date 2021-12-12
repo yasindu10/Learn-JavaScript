@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS selectors</title>
+	<!-- css -->
+	<style>
+		
+        table, th, td {
+  			border: 1px solid black;
+		} 
+    
+	</style>
+</head>
+<body>
+
+<p id="demo">Hellow World</p>
+<br>
+<!-- html table -->
+<table style="width: 45%">
+	<!-- 1 -->
+	<tr>
+		<th>Name</th>
+		<th>age</th>
+	</tr>
+	<!-- 2 -->
+	<tr class="tows">
+		<td>Yasindu</td>
+		<td>13</td>
+	</tr>
+	<!-- 3 -->
+	<tr class="tows">
+		<td>Malindu</td>
+		<td>15</td>
+	</tr>
+	<!-- 4 -->
+	<tr class="tows">
+		<td>Rakindu</td>
+		<td>18</td>
+	</tr>
+</table>
+
+<br><br>
+<button type="button">click</button>
+<br><br>
+<div>
+ 
+  <h3>javascript</h3>
+
+  <p>javascript is populer programming language for web development</p>
+
+</div>
+
+<script>
+
+// id target
+let idTarget = document.getElementById('demo');
+idTarget.innerHTML = "Hellow javascript";
+
+// class target
+let classtarget = document.getElementsByClassName('tows');
+classtarget[0].style.backgroundColor = "red";
+classtarget[1].style.backgroundColor = "red";
+classtarget[2].style.backgroundColor = "red";
+
+// tag target
+let btn = document.getElementsByTagName('button');
+btn[0].style.color = "green";
+
+// all target | id, class, tag
+let alls = document.querySelectorAll('div')
+alls[0].style.color = "red";
+
+
+</script>
+
+
+
+</body>
+</html>
