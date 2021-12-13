@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Time out</title>
+</head>
+<body>
+	
+
+
+<div class="time"></div>
+
+<script>
+
+let duration = 10;
+
+setInterval(js, 1000);
+
+function js() {
+	duration--;
+
+	if(duration == 0) {
+		window.location = "https://www.w3schools.com/";
+	} else {
+		let timetarget = document.getElementsByClassName('time');
+		timetarget[0].innerHTML = duration;
+	}
+}
+
+</script>
+
+
+
+</body>
+</html>
