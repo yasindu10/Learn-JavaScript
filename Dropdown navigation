@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dropdown navigation</title>
+</head>
+<body>
+	
+<!-- select -->
+<select  id="select">
+	<option value="https://www.w3schools.com/">W3schools</option>
+	<option value="https://www.youtube.com/">You Tube</option>
+	<option value="https://www.google.com/">Google</option>
+</select>
+
+
+<script>
+// select target
+let target = document.getElementById('select');
+// event
+target.addEventListener("change", myFunction);
+
+// function
+function myFunction() {
+	window.open(target.value, "myScreen", "width=500px, height= 500px");
+}
+	
+
+</script>
+
+
+</body>
+</html>
