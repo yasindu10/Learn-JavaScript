@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=q, initial-scale=1.0">
+	<title>JS Array</title>
+</head>
+<body>
+	
+
+
+
+<p id="Array1"></p>
+
+<p id="Array2"></p>
+
+<br>
+
+<p id="Array3"></p>
+
+<p id="Array4"></p>
+
+
+<script>
+	
+// array
+
+// 1
+let friendNames = [/*0*/"Yasindu", /*1*/"Malindu", /*2*/"Rakindu", /*3*/"Senul"];
+
+document.getElementById('Array1').innerHTML = friendNames;
+document.getElementById('Array2').innerHTML = friendNames[3];
+
+
+// 2
+let bestFriendsName = [];
+bestFriendsName[0] = "Rakindu";
+bestFriendsName[1] = "Malindu";
+bestFriendsName[2] = "Binula";
+
+document.getElementById('Array3').innerHTML = bestFriendsName;
+document.getElementById('Array4').innerHTML = bestFriendsName[0];
+
+</script>
+
+
+</body>
+</html>
