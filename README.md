@@ -1,2 +1,2 @@
-# Yasindu
-Hellow, My name is Yasindu Samarasinghe.
+# JavaScript
+JavaScript is populer programming language
