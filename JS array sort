@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS array sort</title>
+</head>
+<body>
+	
+<p>1.Normal</p>
+
+<p id="normal"></p>
+
+<br>
+
+<p>Sort</p>
+<p id="sort"></p>
+
+<script>
+
+// array
+let nameList = ["Deepal","Cenuth","Binula","Amal"];
+
+// normal
+document.getElementById('normal').innerHTML = nameList;
+
+// sort
+nameList.sort();
+document.getElementById('sort').innerHTML = nameList;
+
+</script>
+
+
+</body>
+</html>
