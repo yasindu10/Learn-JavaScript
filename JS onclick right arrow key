@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS onclick right arrow key</title>
+</head>
+<body>
+
+
+<p id="demo"></p>
+
+<script>
+// right arrow = key code : 39;
+// click right arrow key
+
+addEventListener("keydown", js);
+
+function js(keys) {
+	
+	if(keys.keyCode == 39) {
+		document.getElementById('demo').innerHTML = "Hellow World";
+	} else {
+		document.getElementById('demo').innerHTML = "Invalid key";
+	}
+
+}
+
+</script>
+
+
+</body>
+</html>
