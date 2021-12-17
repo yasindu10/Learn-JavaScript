@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS theme system</title>
+</head>
+<body id="body">
+
+
+<form action="">
+    <input type="radio" name="theme" value="Dark">
+    <label for="">Dark theme</label>
+    <br>
+    <input type="radio" name="theme" value="Light">
+    <label for="">Light theme</label>
+    <br><br>
+    <input type="button" value="Ok" onclick="js()" > 
+</form>
+
+
+<script>
+function js() {
+    let form =  document.forms[0];
+    let txt = "";
+    for(let i = 0; i < form.length; i++) {
+        if(form[i].checked) {
+            txt += form[i].value + ""; 
+        }
+    }
+        if (txt == "Dark") {
+            dark();
+        } else {
+            light();
+        }
+
+}
+    
+let body = document.getElementById('body');
+
+function dark() {
+    body.style.backgroundColor = "black";
+    body.style.color = "white";
+} 
+
+function light() {
+    body.style.backgroundColor = "white";
+    body.style.color = "black";
+}
+
+</script>
+
+
+</body>
+</html>
