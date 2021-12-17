@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS time system</title>
+</head>
+<body>
+
+
+<script>
+
+let time = new Date().getHours();
+
+if(time > 19) {
+	document.write('Good night');
+} else if(time > 12) {
+	document.write('Good evening');
+} else {
+	document.write('Good morning');
+}
+
+</script>
+
+
+</body>
+</html>
