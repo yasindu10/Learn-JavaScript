@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Small calculater</title>
+	<style>
+		
+        .main-div {
+        	margin:auto;
+        	width: 200px;
+        }
+
+        .span1 {
+        	margin:5px 11px !important;
+        }
+
+        .span3 {
+        	margin:5px 11px !important;
+        }
+
+	</style>
+</head>
+<body>
+	
+
+
+
+
+
+<div class="container">	
+
+  <div class="main-div">
+	<form name="cal">
+	<input type="text" name="txt" placeholder="" readonly id="input">
+ 	<hr width="150px" style="margin-left:1px">
+	<button type="button" class="span" title="Clean" onclick="document.cal.txt.value =''">c</button>
+	<button type="button" class="span1" title="(" onclick="document.cal.txt.value +='('">(</button>
+    <button type="button" class="span1" title=")" onclick="document.cal.txt.value +=')'">)</button>
+    <button type="button" class="span1" title="%" onclick="document.cal.txt.value +='%'">%</button>
+    <br><br>
+    <button type="button" class="span" title="7" onclick="document.cal.txt.value +='7'">7</button>
+    <button type="button" class="span3" title="8" onclick="document.cal.txt.value +='8'">8</button>
+    <button type="button" class="span3" title="9" onclick="document.cal.txt.value +='9'">9</button>
+    <button type="button" class="span3" title="/" onclick="document.cal.txt.value +='/'">/</button>
+    <br><br>
+    <button type="button" class="span" title="4" onclick="document.cal.txt.value +='4'">4</button>
+    <button type="button" class="span3" title="5" onclick="document.cal.txt.value +='5'">5</button>
+    <button type="button" class="span3" title="6" onclick="document.cal.txt.value +='6'">6</button>
+    <button type="button" class="span3" title="*" onclick="document.cal.txt.value +='*'">*</button>
+    <br><br>
+    <button type="button" class="span" title="1" onclick="document.cal.txt.value +='1'">1</button>
+    <button type="button" class="span3" title="2" onclick="document.cal.txt.value +='2'">2</button>
+    <button type="button" class="span3" title="3" onclick="document.cal.txt.value +='3'">3</button>
+    <button type="button" class="span3" title="-" onclick="document.cal.txt.value +='-'">-</button>
+    <br><br>
+    <button type="button" class="span" title="0" onclick="document.cal.txt.value +='0'">0</button>
+    <button type="button" class="span3" title="." onclick="document.cal.txt.value +='.'">.</button>
+    <button type="button" class="span3" title="=" onclick="document.cal.txt.value = eval(cal.txt.value)">=</button>
+    <button type="button" class="span3" title="+" onclick="document.cal.txt.value +='+'">+</button>
+	</form>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
