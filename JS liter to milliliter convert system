@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS liter to milliliter convert system</title>
+</head>
+<body>
+	
+
+<input type="text" placeholder="Enter liter" required id="demo">
+
+<button type="button" onclick="myFunction()">click to convert milliliter</button>
+
+<script>
+
+function myFunction() {
+	// input value
+	let inputValue = document.getElementById('demo').value;
+	
+	// system
+	let system = inputValue * 1000;
+	document.getElementById('demo').value = system + "ml";
+}
+
+
+
+</script>
+
+
+</body>
+</html>
