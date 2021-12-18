@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS English to Sinhala translater</title>
+</head>
+<body>
+
+
+
+<div class="text">
+	
+	<h2 class="trans">JavaScript</h2>
+
+	<p class="trans">JavaScript is most populer programming language</p>
+
+	<button  class="trans" type="button" onclick="myFunction()">translater</button>
+</div>
+
+
+<script>
+	
+
+function myFunction() {
+	let translatValue = document.getElementsByClassName('trans');
+	translatValue[1].innerText = "JavaScript වඩාත් ජනප්රිය ක්රමලේඛන භාෂාව වේ";
+
+}
+
+
+</script>
+
+
+</body>
+</html>
